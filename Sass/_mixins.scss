@@ -1,0 +1,8 @@
+@mixin BurgerBtn {
+	position: absolute;
+	right: 0;
+	height: 3px;
+	content: '';
+	background-color: color.$pure-white; // <-- tu jest problem
+	transition: width 2s;
+}

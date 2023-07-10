@@ -1,8 +1,10 @@
 @use './colors' as color;
 @use './componet' as comp;
-@use './mixinis' as mix;
+@use './mixins' as mix;
 
-* {
+*,
+*::after,
+*::before {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -14,4 +16,34 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.6rem;
+}
+//Navigation//
+
+.burger-btn {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	padding: 1em;
+	background: none;
+	border: 1px solid transparent;
+	cursor: pointer;
+	z-index: 100;
+
+	&:focus {
+		outline: none;
+		border: 1px solid rgba(255, 255, 255, 0.5);
+		border-radius: 8px;
+	}
+	&__box {
+		position: relative;
+		width: 40px;
+		height: 30px;
+		background-color: red;
+	}
+	&__bars,
+	&__bars::after,
+	&__bars::before {
+		@include mix.BurgerBtn; // <---to nie  działa
+		color: color.$pure-white; // <---to działa
+	}
 }
