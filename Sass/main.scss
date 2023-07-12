@@ -43,7 +43,6 @@ body {
 	&__bars,
 	&__bars::after,
 	&__bars::before {
-		@include mix.BurgerBtn; 
-		
+		@include mix.BurgerBtn;
 	}
 }
