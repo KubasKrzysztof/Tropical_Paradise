@@ -43,7 +43,7 @@ body {
 	&__bars,
 	&__bars::after,
 	&__bars::before {
-		@include mix.BurgerBtn; // <---to nie  działa
-		color: color.$pure-white; // <---to działa
+		@include mix.BurgerBtn; 
+		
 	}
 }

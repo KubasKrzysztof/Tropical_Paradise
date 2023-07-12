@@ -1,8 +1,10 @@
+@use './colors' as color;
+
 @mixin BurgerBtn {
 	position: absolute;
 	right: 0;
 	height: 3px;
 	content: '';
-	background-color: color.$pure-white; // <-- tu jest problem
+	background-color: color.$pure-white; 
 	transition: width 2s;
 }

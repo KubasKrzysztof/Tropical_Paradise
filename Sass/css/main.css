@@ -1,49 +1,47 @@
 *,
 *::after,
 *::before {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	font-size: 62.5%;
-	scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
 }
 
 .burger-btn {
-	position: fixed;
-	top: 20px;
-	right: 20px;
-	padding: 1em;
-	background: none;
-	border: 1px solid transparent;
-	cursor: pointer;
-	z-index: 100;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 1em;
+  background: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  z-index: 100;
 }
 .burger-btn:focus {
-	outline: none;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 8px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
 }
 .burger-btn__box {
-	position: relative;
-	width: 40px;
-	height: 30px;
-	background-color: red;
+  position: relative;
+  width: 40px;
+  height: 30px;
+  background-color: red;
 }
-.burger-btn__bars,
-.burger-btn__bars::after,
-.burger-btn__bars::before {
-	position: absolute;
-	right: 0;
-	height: 3px;
-	content: '';
-	transition: width 2s;
-	color: #fff;
-} /*# sourceMappingURL=main.css.map */
+.burger-btn__bars, .burger-btn__bars::after, .burger-btn__bars::before {
+  position: absolute;
+  right: 0;
+  height: 3px;
+  content: "";
+  background-color: #fff;
+  transition: width 2s;
+}/*# sourceMappingURL=main.css.map */
