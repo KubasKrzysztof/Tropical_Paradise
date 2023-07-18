@@ -5,6 +5,7 @@
 	right: 0;
 	height: 3px;
 	content: '';
-	background-color: color.$pure-white; 
-	transition: width 2s;
+	background-color: color.$pure-white;
+	background-color: red;
+	transition: width 0.3s;
 }

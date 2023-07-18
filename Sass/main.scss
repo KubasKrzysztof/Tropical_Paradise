@@ -29,6 +29,13 @@ body {
 	cursor: pointer;
 	z-index: 100;
 
+	&:hover {
+		.burger-btn__bars::after,
+		.burger-btn__bars::before {
+			width: 100%;
+		}
+	}
+
 	&:focus {
 		outline: none;
 		border: 1px solid rgba(255, 255, 255, 0.5);
@@ -38,11 +45,22 @@ body {
 		position: relative;
 		width: 40px;
 		height: 30px;
-		background-color: red;
 	}
 	&__bars,
 	&__bars::after,
 	&__bars::before {
 		@include mix.BurgerBtn;
+	}
+	&__bars {
+		width: 100%;
+		&::after {
+			top: 13px;
+			width: 60%;
+		}
+		&::before {
+			top: 27px;
+			width: 30%;
+			transition-delay: 0.1s;
+		}
 	}
 }
