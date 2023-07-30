@@ -64,6 +64,40 @@ body {
 		}
 	}
 }
+.nav {
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background-image: color.$blue-gradient-solid;
+	z-index: 100;
+	&__item {
+		position: relative;
+		display: block;
+		margin: 0.5em 0;
+		padding: 0.5em 2.5em;
+		font-size: 2.8rem;
+		color: color.$pure-white;
+		text-decoration: none;
+		&::before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			transform: scaleY(0);
+			background-color: color.$pure-white;
+			transition: transform 0.3s;
+			content: '';
+		}
+		&:hover::before {
+			transform: scaleY(1);
+		}
+	}
+}
 // HEADER
 
 .header {
