@@ -72,8 +72,15 @@ body {
 	align-items: center;
 	height: 100vh;
 	width: 100%;
+	transform: translateX(100%);
+	transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
 	background-image: color.$blue-gradient-solid;
 	z-index: 100;
+
+	&--active {
+		transform: translateX(0);
+	}
+
 	&__item {
 		position: relative;
 		display: block;
@@ -82,6 +89,7 @@ body {
 		font-size: 2.8rem;
 		color: color.$pure-white;
 		text-decoration: none;
+
 		&::before {
 			position: absolute;
 			top: 0;
