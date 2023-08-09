@@ -148,6 +148,18 @@ body {
   transform: scaleY(1);
 }
 
+@keyframes NavItemAnimation {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.nav-item-animation {
+  animation: NavItemAnimation 1s both;
+}
+
 .header {
   position: relative;
   display: flex;
