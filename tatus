@@ -1,0 +1,78 @@
+[33mcommit 607b8a27258fe0460d17135464034739599b28fe[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mJava[m[33m)[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Fri Aug 4 00:18:27 2023 +0200
+
+    Nawigacja cz2
+
+[33mcommit e0dec89de9326d4a7936de9255d1b57762a77416[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Sun Jul 30 22:22:26 2023 +0200
+
+    Navigacja cz1
+
+[33mcommit 188878c8908274b87530b0285a596369ab2fa923[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Sun Jul 30 21:31:11 2023 +0200
+
+    header III
+
+[33mcommit ce0fba2a02266131abde81f6e904388936558638[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Tue Jul 25 01:18:54 2023 +0200
+
+    header II
+
+[33mcommit 09955d639e30fee3acf4913dd3eb5edff3fbf10f[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Sat Jul 22 01:20:48 2023 +0200
+
+    header cz I
+
+[33mcommit 1132742edf334410a02b19a267582f26e4bfba38[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Wed Jul 19 00:06:32 2023 +0200
+
+    burger button
+
+[33mcommit b6209b64f850ca86dcab5db43462cb39af43efa5[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Wed Jul 12 23:29:42 2023 +0200
+
+    fixed
+
+[33mcommit 6928176cb12c1a2a6ec14f2b86ec1d59d3e53ff3[m
+Merge: a584379 77fb953
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Wed Jul 12 23:26:00 2023 +0200
+
+    Merge branch 'fixed'
+
+[33mcommit 77fb953f37f6906dd9790068f7ecd60509e7acb3[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Wed Jul 12 23:15:09 2023 +0200
+
+    problem fixed
+
+[33mcommit a5843799a8b73628ceaa0901b54aaace47ee30e3[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Wed Jul 12 23:10:58 2023 +0200
+
+    serwis
+
+[33mcommit 73b290e5891642c8e9dc7dc0ed0d6cb48b7e7d46[m[33m ([m[1;31morigin/error[m[33m, [m[1;32merror[m[33m)[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Mon Jul 10 22:21:43 2023 +0200
+
+    Problem
+
+[33mcommit acb7b1086a3cfcee1abe35247c3368aa7c4b2fda[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Sun Jul 9 00:20:48 2023 +0200
+
+    finish first commit
+
+[33mcommit 0ec0b83f7e8f5b981d0b8faacddcaa5d0cc6f324[m
+Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
+Date:   Sun Jul 9 00:06:28 2023 +0200
+
+    first commit
