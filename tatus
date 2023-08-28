@@ -1,78 +1,57 @@
-[33mcommit 607b8a27258fe0460d17135464034739599b28fe[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mJava[m[33m)[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Fri Aug 4 00:18:27 2023 +0200
-
-    Nawigacja cz2
-
-[33mcommit e0dec89de9326d4a7936de9255d1b57762a77416[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Sun Jul 30 22:22:26 2023 +0200
-
-    Navigacja cz1
-
-[33mcommit 188878c8908274b87530b0285a596369ab2fa923[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Sun Jul 30 21:31:11 2023 +0200
-
-    header III
-
-[33mcommit ce0fba2a02266131abde81f6e904388936558638[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Tue Jul 25 01:18:54 2023 +0200
-
-    header II
-
-[33mcommit 09955d639e30fee3acf4913dd3eb5edff3fbf10f[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Sat Jul 22 01:20:48 2023 +0200
-
-    header cz I
-
-[33mcommit 1132742edf334410a02b19a267582f26e4bfba38[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Wed Jul 19 00:06:32 2023 +0200
-
-    burger button
-
-[33mcommit b6209b64f850ca86dcab5db43462cb39af43efa5[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Wed Jul 12 23:29:42 2023 +0200
-
-    fixed
-
-[33mcommit 6928176cb12c1a2a6ec14f2b86ec1d59d3e53ff3[m
-Merge: a584379 77fb953
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Wed Jul 12 23:26:00 2023 +0200
-
-    Merge branch 'fixed'
-
-[33mcommit 77fb953f37f6906dd9790068f7ecd60509e7acb3[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Wed Jul 12 23:15:09 2023 +0200
-
-    problem fixed
-
-[33mcommit a5843799a8b73628ceaa0901b54aaace47ee30e3[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Wed Jul 12 23:10:58 2023 +0200
-
-    serwis
-
-[33mcommit 73b290e5891642c8e9dc7dc0ed0d6cb48b7e7d46[m[33m ([m[1;31morigin/error[m[33m, [m[1;32merror[m[33m)[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Mon Jul 10 22:21:43 2023 +0200
-
-    Problem
-
-[33mcommit acb7b1086a3cfcee1abe35247c3368aa7c4b2fda[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Sun Jul 9 00:20:48 2023 +0200
-
-    finish first commit
-
-[33mcommit 0ec0b83f7e8f5b981d0b8faacddcaa5d0cc6f324[m
-Author: Krzysztof Kubas <kubas.krzysztof@gmail.com>
-Date:   Sun Jul 9 00:06:28 2023 +0200
-
-    first commit
+[33mab78b64[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{0}: commit: Hero image
+[33m1352e81[m HEAD@{1}: commit: dreams cz3
+[33m6fad0ad[m HEAD@{2}: commit: dreams cz2
+[33maec5b3a[m HEAD@{3}: commit: dreams cz1
+[33mf3f7d2b[m HEAD@{4}: checkout: moving from Java to master
+[33m52bf932[m[33m ([m[1;31morigin/Java[m[33m, [m[1;32mJava[m[33m)[m HEAD@{5}: checkout: moving from master to Java
+[33mf3f7d2b[m HEAD@{6}: checkout: moving from Java to master
+[33m52bf932[m[33m ([m[1;31morigin/Java[m[33m, [m[1;32mJava[m[33m)[m HEAD@{7}: checkout: moving from master to Java
+[33mf3f7d2b[m HEAD@{8}: rebase (finish): returning to refs/heads/master
+[33mf3f7d2b[m HEAD@{9}: rebase (pick): Navi cz 3
+[33mf0ee261[m HEAD@{10}: rebase (pick): Navi cz2
+[33mb141823[m HEAD@{11}: rebase (reword): Navi cz1
+[33me0dec89[m HEAD@{12}: rebase: fast-forward
+[33m188878c[m HEAD@{13}: rebase (start): checkout HEAD~3
+[33m56dffca[m HEAD@{14}: rebase (finish): returning to refs/heads/master
+[33m56dffca[m HEAD@{15}: rebase (pick): Navi cz 3
+[33m4675832[m HEAD@{16}: rebase (reword): Navi cz2
+[33m607b8a2[m HEAD@{17}: rebase: fast-forward
+[33me0dec89[m HEAD@{18}: rebase (start): checkout HEAD~2
+[33m52bf932[m[33m ([m[1;31morigin/Java[m[33m, [m[1;32mJava[m[33m)[m HEAD@{19}: merge Java: Fast-forward
+[33m607b8a2[m HEAD@{20}: checkout: moving from Java to master
+[33m52bf932[m[33m ([m[1;31morigin/Java[m[33m, [m[1;32mJava[m[33m)[m HEAD@{21}: commit: Navi cz 3
+[33m607b8a2[m HEAD@{22}: checkout: moving from master to Java
+[33m607b8a2[m HEAD@{23}: merge Java: Fast-forward
+[33me0dec89[m HEAD@{24}: checkout: moving from Java to master
+[33m607b8a2[m HEAD@{25}: commit (amend): Nawigacja cz2
+[33mc78a86a[m HEAD@{26}: commit: Nawigacja cz3
+[33me0dec89[m HEAD@{27}: checkout: moving from master to Java
+[33me0dec89[m HEAD@{28}: reset: moving to HEAD
+[33me0dec89[m HEAD@{29}: commit: Navigacja cz1
+[33m188878c[m HEAD@{30}: commit: header III
+[33mce0fba2[m HEAD@{31}: commit: header II
+[33m09955d6[m HEAD@{32}: commit: header cz I
+[33m1132742[m HEAD@{33}: commit: burger button
+[33mb6209b6[m HEAD@{34}: commit: fixed
+[33m6928176[m HEAD@{35}: commit (merge): Merge branch 'fixed'
+[33ma584379[m HEAD@{36}: checkout: moving from fixed to master
+[33m77fb953[m HEAD@{37}: checkout: moving from 77fb953f37f6906dd9790068f7ecd60509e7acb3 to fixed
+[33m77fb953[m HEAD@{38}: checkout: moving from 73b290e5891642c8e9dc7dc0ed0d6cb48b7e7d46 to 77fb953
+[33m73b290e[m[33m ([m[1;31morigin/error[m[33m, [m[1;32merror[m[33m)[m HEAD@{39}: checkout: moving from error to 73b290e
+[33m73b290e[m[33m ([m[1;31morigin/error[m[33m, [m[1;32merror[m[33m)[m HEAD@{40}: checkout: moving from 77fb953f37f6906dd9790068f7ecd60509e7acb3 to error
+[33m77fb953[m HEAD@{41}: commit: problem fixed
+[33m73b290e[m[33m ([m[1;31morigin/error[m[33m, [m[1;32merror[m[33m)[m HEAD@{42}: checkout: moving from master to 73b290e
+[33ma584379[m HEAD@{43}: commit: serwis
+[33macb7b10[m HEAD@{44}: checkout: moving from error to master
+[33m73b290e[m[33m ([m[1;31morigin/error[m[33m, [m[1;32merror[m[33m)[m HEAD@{45}: checkout: moving from master to error
+[33macb7b10[m HEAD@{46}: checkout: moving from 957a30271840fb759e0586f96e73458e30d369f1 to master
+[33m957a302[m HEAD@{47}: commit: finish erro
+[33m73b290e[m[33m ([m[1;31morigin/error[m[33m, [m[1;32merror[m[33m)[m HEAD@{48}: checkout: moving from error to 73b290e5891642c8e9dc7dc0ed0d6cb48b7e7d46
+[33m73b290e[m[33m ([m[1;31morigin/error[m[33m, [m[1;32merror[m[33m)[m HEAD@{49}: checkout: moving from master to error
+[33macb7b10[m HEAD@{50}: checkout: moving from error to master
+[33m73b290e[m[33m ([m[1;31morigin/error[m[33m, [m[1;32merror[m[33m)[m HEAD@{51}: commit: Problem
+[33macb7b10[m HEAD@{52}: checkout: moving from master to error
+[33macb7b10[m HEAD@{53}: checkout: moving from erroe to master
+[33macb7b10[m HEAD@{54}: checkout: moving from master to erroe
+[33macb7b10[m HEAD@{55}: commit: finish first commit
+[33m0ec0b83[m HEAD@{56}: commit (initial): first commit
