@@ -197,6 +197,60 @@ body {
 	}
 }
 // ------------>
+// --Island---
+// <-----------
+.islands {
+	&__card {
+		position: relative;
+		margin: 1em 0;
+		height: 450px;
+		color: color.$pure-white;
+		text-align: center;
+		perspective: 1000px;
+		&:hover {
+			.islands__card-img {
+				transform: rotateY(-180deg);
+				opacity: 0;
+			}
+			.islands__card-info {
+				transform: rotateY(0deg);
+				opacity: 1;
+			}
+		}
+		&-img {
+			padding: 2em;
+			height: 100%;
+			border-radius: 8px;
+			background-size: cover;
+			transition: transform 1s, opacity 1s;
+			&-title {
+				font-family: Dancing Script, cursive;
+				font-size: 2.8rem;
+			}
+
+			&--first {
+				background-image: color.$light-blue-gradient, url(../../img/water-3354063_640.jpg);
+			}
+			&--second {
+				background-image: color.$blue-gradient, url(../../img/hawaii-79928_640.jpg);
+			}
+			&--third {
+				background-image: color.$purple-gradient, url(../../img/water-3354063_640.jpg);
+			}
+			&-info {
+				position: absolute;
+				bottom: 40px;
+				right: 30px;
+				font-size: 1.8rem;
+			}
+			i {
+				margin-right: 1.3rem;
+			}
+		}
+	}
+}
+
+// ------------>
 // ---MEDIA---
 // <-----------
 @media (min-width: 576px) {

@@ -270,6 +270,52 @@ body {
   color: #fff;
 }
 
+.islands__card {
+  position: relative;
+  margin: 1em 0;
+  height: 450px;
+  color: #fff;
+  text-align: center;
+  perspective: 1000px;
+}
+.islands__card:hover .islands__card-img {
+  transform: rotateY(-180deg);
+  opacity: 0;
+}
+.islands__card:hover .islands__card-info {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+.islands__card-img {
+  padding: 2em;
+  height: 100%;
+  border-radius: 8px;
+  background-size: cover;
+  transition: transform 1s, opacity 1s;
+}
+.islands__card-img-title {
+  font-family: Dancing Script, cursive;
+  font-size: 2.8rem;
+}
+.islands__card-img--first {
+  background-image: linear-gradient(45deg, rgba(8, 206, 255, 0.75), rgba(8, 24, 255, 0.75)), url(../../img/water-3354063_640.jpg);
+}
+.islands__card-img--second {
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url(../../img/hawaii-79928_640.jpg);
+}
+.islands__card-img--third {
+  background-image: linear-gradient(45deg, rgba(190, 10, 214, 0.75), rgba(68, 0, 255, 0.75)), url(../../img/water-3354063_640.jpg);
+}
+.islands__card-img-info {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+  font-size: 1.8rem;
+}
+.islands__card-img i {
+  margin-right: 1.3rem;
+}
+
 @media (min-width: 576px) {
   .dreams__box {
     flex-direction: row;
