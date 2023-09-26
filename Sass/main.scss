@@ -247,6 +247,55 @@ body {
 				margin-right: 1.3rem;
 			}
 		}
+		&-info {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			background-image: color.$light-blue-gradient-solid;
+			border-radius: 8px;
+			opacity: 0;
+			transform: rotateY(180deg);
+			transition: transforms 1s, opacity 1s;
+
+			&-title {
+				@include mix.IsnladCardStyle;
+				top: 1.2em;
+				font-family: 'Dancing Script';
+				font-size: 2.8rem;
+			}
+			&-list {
+				margin: 0 auto;
+				width: 70%;
+				list-style: none;
+				&-item {
+					padding: 1em;
+					font-size: 1.4rem;
+					border-bottom: 1px solid color.$light-white;
+
+					&:last-child {
+						border-bottom: none;
+					}
+				}
+			}
+			&-btn {
+				@include mix.IsnladCardStyle;
+				bottom: 2em;
+				padding: 1em;
+				border-radius: 8px;
+				width: 80%;
+				border: none;
+				background-color: color.$green-color;
+				cursor: pointer;
+				&::before {
+					background-color: color.$green-color-hover;
+				}
+			}
+		}
 	}
 }
 

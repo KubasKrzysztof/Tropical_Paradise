@@ -34,7 +34,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 101%;
+  height: 100%;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.3s;
@@ -314,6 +314,57 @@ body {
 }
 .islands__card-img i {
   margin-right: 1.3rem;
+}
+.islands__card-info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: radial-gradient(circle at top right, rgb(0, 78, 255) 0%, rgb(0, 212, 255) 100%);
+  border-radius: 8px;
+  opacity: 0;
+  transform: rotateY(180deg);
+  transition: transforms 1s, opacity 1s;
+}
+.islands__card-info-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1.2em;
+  font-family: "Dancing Script";
+  font-size: 2.8rem;
+}
+.islands__card-info-list {
+  margin: 0 auto;
+  width: 70%;
+  list-style: none;
+}
+.islands__card-info-list-item {
+  padding: 1em;
+  font-size: 1.4rem;
+  border-bottom: 1px solid rgba(221, 238, 238, 0.9333333333);
+}
+.islands__card-info-list-item:last-child {
+  border-bottom: none;
+}
+.islands__card-info-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2em;
+  padding: 1em;
+  border-radius: 8px;
+  width: 80%;
+  border: none;
+  background-color: #00ffaa;
+  cursor: pointer;
+}
+.islands__card-info-btn::before {
+  background-color: #0fe29c;
 }
 
 @media (min-width: 576px) {
