@@ -298,6 +298,59 @@ body {
 		}
 	}
 }
+// ------------>
+// ---OFFERS---
+// <-----------
+
+.offers {
+	position: relative;
+	@include mix.heroImage('../../img/bora-bora-3023437_640.jpg');
+	overflow: hidden;
+	.section-heading {
+		color: color.$pure-white;
+	}
+
+	&__option {
+		margin: 1em 0;
+		box-shadow: 5px 5px 10px #2e2e2e2e;
+		background-color: color.$pure-white;
+		overflow: hidden;
+
+		&-img {
+			width: 100%;
+			transition: transforms 0.3s;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+		&-info {
+			padding: 2em;
+		}
+		&-heading {
+			margin-bottom: 0.5em;
+			font-size: 2.4rem;
+			font-weight: 300;
+		}
+		&-text {
+			margin-bottom: 0.5em;
+			font-size: 1.3rem;
+			color: color.$dark;
+		}
+		&-btn {
+			margin-top: 1em;
+			padding: 0.8em;
+			width: 100%;
+			color: color.$pure-white;
+			background-color: color.$main-color;
+			border: none;
+			border-radius: 8px;
+			cursor: pointer;
+			&::before {
+				background-color: color.$secondary-color;
+			}
+		}
+	}
+}
 
 // ------------>
 // ---MEDIA---
@@ -359,9 +412,7 @@ body {
 		&__cards {
 			display: flex;
 			justify-content: center;
-			flex-wrap:wrap;
-			
-			
+			flex-wrap: wrap;
 		}
 		&__card {
 			margin: 1em;
