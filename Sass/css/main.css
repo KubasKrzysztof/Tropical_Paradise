@@ -435,6 +435,15 @@ body {
   .dreams__box-img--right {
     order: 1;
   }
+  .offers__option {
+    display: flex;
+    margin: 2em 0;
+    width: 100%;
+  }
+  .offers__option-img {
+    width: 50%;
+    height: auto;
+  }
 }
 @media (min-width: 768px) {
   .white-block {

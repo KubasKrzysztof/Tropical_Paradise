@@ -375,6 +375,17 @@ body {
 			}
 		}
 	}
+	.offers {
+		&__option {
+			display: flex;
+			margin: 2em 0;
+			width: 100%;
+			&-img {
+				width: 50%;
+				height: auto;
+			}
+		}
+	}
 }
 
 @media (min-width: 768px) {
