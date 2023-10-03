@@ -325,6 +325,8 @@ body {
 		}
 		&-info {
 			padding: 2em;
+			background-color: color.$pure-white;
+			z-index: 10;
 		}
 		&-heading {
 			margin-bottom: 0.5em;
@@ -383,6 +385,25 @@ body {
 			&-img {
 				width: 50%;
 				height: auto;
+				&--right {
+					order: 1;
+				}
+			}
+			&-info {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			&-heading {
+				margin-bottom: 0.5em;
+				font-size: 3.6rem;
+				text-align: center;
+				text-transform: uppercase;
+			}
+			&-btn {
+				padding: 1em;
+				text-transform: uppercase;
+				font-weight: 700;
 			}
 		}
 	}
@@ -474,6 +495,18 @@ body {
 		hr {
 			width: 60%;
 			max-width: 900px;
+		}
+	}
+	.offers {
+		@include mix.heroImage('../../img/bora-bora-3023437_1920.jpg');
+		&__option {
+			&-img {
+				object-fit: cover;
+				height: 300px;
+			}
+			&-text {
+				font-size: 1.5rem;
+			}
 		}
 	}
 }

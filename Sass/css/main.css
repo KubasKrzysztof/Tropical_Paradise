@@ -393,6 +393,8 @@ body {
 }
 .offers__option-info {
   padding: 2em;
+  background-color: #fff;
+  z-index: 10;
 }
 .offers__option-heading {
   margin-bottom: 0.5em;
@@ -443,6 +445,25 @@ body {
   .offers__option-img {
     width: 50%;
     height: auto;
+  }
+  .offers__option-img--right {
+    order: 1;
+  }
+  .offers__option-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .offers__option-heading {
+    margin-bottom: 0.5em;
+    font-size: 3.6rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .offers__option-btn {
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
   }
 }
 @media (min-width: 768px) {
@@ -524,6 +545,20 @@ body {
   .hero-img hr {
     width: 60%;
     max-width: 900px;
+  }
+  .offers {
+    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../../img/bora-bora-3023437_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .offers__option-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 300px;
+  }
+  .offers__option-text {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1100px) {
