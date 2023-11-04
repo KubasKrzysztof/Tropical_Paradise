@@ -395,12 +395,60 @@ body {
 }
 
 // ------------>
+// ---CONTACT---
+// <-----------
+
+.contact {
+	position: relative;
+	background-color: color.$light-white;
+	overflow: hidden;
+	.white-block-left {
+		background-color: color.$dark;
+	}
+
+	&__form,
+	&__form-top {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__form-lable {
+		margin-bottom: 0.5em;
+		text-transform: uppercase;
+	}
+	&__form-input {
+		@include mix.contactForm;
+	}
+	&__form-textarea {
+		@include mix.contactForm;
+		max-width: 100%;
+		min-width: 100%;
+		width: 100%;
+		min-height: 150px;
+	}
+	&__form-btn {
+		align-self: flex-end;
+		padding: 1em;
+		width: 100%;
+		max-width: 300px;
+		color: color.$pure-white;
+		border: none;
+		border-radius: 8px;
+		background-color: color.$main-color;
+		cursor: pointer;
+
+		&::before {
+			background-color: color.$secondary-color;
+		}
+	}
+}
+
+// ------------>
 // ---MEDIA---
 // <-----------
 @media (max-width: 767px) {
 	.reviews.section-padding {
 		padding: 6em 0;
-		
 	}
 }
 @media (min-width: 576px) {
