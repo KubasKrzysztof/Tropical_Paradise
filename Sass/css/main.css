@@ -489,9 +489,12 @@ body {
 }
 .contact__form-btn {
   align-self: flex-end;
-  padding: 1em;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding: 0.5em;
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   color: #fff;
   border: none;
   border-radius: 8px;
